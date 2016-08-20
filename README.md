@@ -1,6 +1,9 @@
 ### 个人博客
 
-> 各路干货， 踩坑有感， 欢迎STAR。
+> 各路干货， 踩坑有感， 持续更新， 会定期清理一些不在活跃的站点， 为大家整理更加优质的内容, 本人也会不定期更新一些自己的作品。
+> 同时， 此处的资料数量也会保持在一定范围内， 毕竟太多也不会去全部关注， 保持一个小而优的状态是我所追求的。
+> 喜欢的朋友请点Star, 关注可以点 Watch, 同时也欢迎大家提交自己的干货过来（真·干货 我会义不容辞的）。
+
 
 ------
 
@@ -18,6 +21,9 @@
     
   + 源码分析系列
     + [jQuery源码分析 —— 中文注释<未完待更>](https://github.com/inJs/blog/tree/master/jquery_annotate_chinese)
+    
+  + 那些年踩过的坑
+    + [工作中遇到的问题汇总](https://github.com/inJs/blog/tree/master/bugs)
 
   + JavaScript 设计模式
     + [干货](http://www.kancloud.cn/kancloud/learn-js-design-patterns/56461) 
@@ -36,6 +42,7 @@
     + [腾讯ISUX](https://isux.tencent.com/category/fd)
     + [腾讯AlloyTeam](http://www.alloyteam.com/)
     + [百度F2E](http://efe.baidu.com/) 
+    + [百度FEX](http://fex.baidu.com/)
     
   + 文档、工具
     + [前端开发文档](http://devdocs.io/)
@@ -43,4 +50,4 @@
     + [分析你的站点性能](https://developers.google.com/speed/pagespeed/)
     + [CSS3生成器](http://css3generator.com/)
     + [可视化调整按钮样式](https://css-tricks.com/examples/ButtonMaker/)
-    + [icon 库<font、svg等>](https://icomoon.io/)
+    + [icon 库(font、svg等)](https://icomoon.io/)
