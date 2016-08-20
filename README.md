@@ -19,8 +19,9 @@
     + [HTML5 Rocks](http://www.html5rocks.com/zh/)
     + [响应式设计](http://alistapart.com/article/responsive-web-design)
     
-  + 源码分析系列
+  + 个人作品
     + [jQuery源码分析 —— 中文注释<未完待更>](https://github.com/inJs/blog/tree/master/jquery_annotate_chinese)
+    + [CSS RESET](https://github.com/inJs/blog/tree/master/css_reset)
     
   + 那些年踩过的坑
     + [工作中遇到的问题汇总](https://github.com/inJs/blog/tree/master/bugs)
