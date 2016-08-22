@@ -2,14 +2,14 @@ var insertionSort = function (input) {
     if (!Array.isArray(input)) {
         return;
     }
-    var curVal, i, ii;
-    for (i = 1, len = input.length; i < len; i++) {
-        curVal = input[i];
+    var curVal, curIndex, prevIndex;
+    for (curIndex = 1, len = input.length; curIndex < len; curIndex++) {
+        curVal = input[curIndex];
 
-        for (ii = i - 1; ii > -1 && input[ii] > curVal; ii--) { // 当前值与上一个值比较
-            input[ii + 1] = input[ii]; // ii + 1 === i;
+        for (prevIndex = curIndex - 1; prevIndex > -1 && input[prevIndex] > curVal; prevIndex--) { // 当前值与上一个值比较
+            input[prevIndex + 1] = input[prevIndex];
         }
-        input[ii + 1] = curVal;
+        input[prevIndex + 1] = curVal;
     }
 
     return input;
