@@ -1,4 +1,4 @@
-var bubbleSort = function (input) {
+var bubble = function (input) {
     if (!Array.isArray(input)) {
         return;
     }

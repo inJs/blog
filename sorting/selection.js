@@ -1,4 +1,4 @@
-var selectionSort = function (input) {
+var selection = function (input) {
     if (!Array.isArray(input)) {
         return;
     }

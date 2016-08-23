@@ -1,4 +1,4 @@
-var insertionSort = function (input) {
+var insertion = function (input) {
     if (!Array.isArray(input)) {
         return;
     }
