@@ -21,6 +21,7 @@
     
   + 个人作品
     + [jQuery源码分析 —— 中文注释<未完待更>](https://github.com/inJs/blog/tree/master/jquery_annotate_chinese)
+    + [几种常见的排序算法](https://github.com/inJs/blog/tree/master/sorting)
     + [CSS RESET](https://github.com/inJs/blog/tree/master/css_reset)
     
   + 那些年踩过的坑
@@ -46,6 +47,7 @@
     + [百度FEX](http://fex.baidu.com/)
     
   + 文档、工具
+    + [工程化工具整理](https://github.com/inJs/blog/tree/master/tools)
     + [前端开发文档](http://devdocs.io/)
     + [为你自动创建良好兼容性的CSS](http://css3pie.com/)
     + [分析你的站点性能](https://developers.google.com/speed/pagespeed/)
