@@ -16,10 +16,31 @@
   + 简单原型链继承
     简单原型链继承，可以说是最简单的一种继承方式， 先亮代码：
     ```
-    var inherit = function(child, parent) {
-        child.prototype = new parent;
+        var Man = function() {
+            this.name = 'donkey';
+            this.age = 3;
+        }
         
-        return new child();
-    }
+        var Human = function(){
+            this.weight = 55;
+            this.vehicle = ['car', 'bicycle'];
+        };
+        
+        Lee.prototype = new Human;
+        
+        var lee = new Man;
+        var zhang = new Man;
+        
+        console.log(lee.name); // 'donkey'
+        console.log(lee.age); // 3
+        console.log(lee.weight); // 55
+        console.log(lee.vehicle); // ['car', 'bicycle']
+        console.log(zhang.name); // 'donkey'
+        console.log(zhang.age); // 3
+        console.log(zhang.weight); // 55
+        console.log(zhang.vehicle); // ['car', 'bicycle']
+        lee.vehicle.push('donkey'); // 通过实例 lee 操作的引用， 将直接影响到 zhang
+        console.log(lee.vehicle); // ['car', 'bicycle', 'donkey']
+        console.log(zhang.vehicle); // ['car', 'bicycle', 'donkey']
     ```
-    
+    看到了上面的测试代码， 或许你已经意识到了简单原型链继承所存在的问题： lee 为自己买了一头驴当作坐骑， 而zhang也莫名其妙来了一头驴
