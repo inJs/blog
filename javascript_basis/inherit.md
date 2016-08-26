@@ -43,4 +43,4 @@
         console.log(lee.vehicle); // ['car', 'bicycle', 'donkey']
         console.log(zhang.vehicle); // ['car', 'bicycle', 'donkey']
     ```
-    看到了上面的测试代码， 或许你已经意识到了简单原型链继承所存在的问题： lee 为自己买了一头驴当作坐骑， 而zhang也莫名其妙来了一头驴
+    看到了上面的测试代码， 或许你已经意识到了简单原型链继承所存在的问题： lee 为自己买了一头donkey当作坐骑， 而zhang也莫名其妙来了一头donkey
