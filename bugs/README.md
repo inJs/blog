@@ -8,3 +8,4 @@
 目录
     
   + [Angular 踩坑系列](https://github.com/inJs/blog/tree/master/bugs/angular_bugs.md)
+  + [原生相关](https://github.com/inJs/blog/tree/master/bugs/protogenesis.md)
