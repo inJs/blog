@@ -54,3 +54,4 @@
     + [CSS3生成器](http://css3generator.com/)
     + [可视化调整按钮样式](https://css-tricks.com/examples/ButtonMaker/)
     + [icon 库(font、svg等)](https://icomoon.io/)
+    + [语义化版本](http://semver.org/lang/zh-CN/)
